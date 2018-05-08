@@ -1,0 +1,38 @@
+div {
+  border: 1px solid black;
+}
+html {
+font-size: 18px;
+background-color: black;
+color: white;
+font-family: Helvetica;
+
+}
+.header-container {
+  height: 25rem;
+  background-image: url("/Users/SamCollins/Documents/GitHub/SamColl.io/SecretAgentSupply/resources/images/moto.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.logo-container {
+  display: inline-flex;
+  align-items: center;
+}
+img {
+  height: 1.5rem;
+  padding: 0.66rem 0.5rem 0.66rem 1.5rem;
+  padding-right: 1rem;
+}
+.tagline  {
+  height: auto;
+}
+.menu {
+  display: flex;
+  background-color: firebrick;
+
+}
+span {
+  align-content: space-around;
+}
