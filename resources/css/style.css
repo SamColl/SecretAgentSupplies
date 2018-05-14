@@ -1,0 +1,30 @@
+html {
+  font-size: 18px;
+  color: white;
+  font-family: helvetica;
+}
+.container {
+  max-width: 960px;
+  display: flex;
+}
+
+.logo {
+  background-color: black;
+}
+.moto {
+
+}
+.menu {
+
+}
+.products {
+
+}
+
+.info {
+
+}
+
+.footer {
+  background-color: black;
+}
