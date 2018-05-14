@@ -4,14 +4,55 @@ html {
   font-family: helvetica;
 }
 .container {
-  max-width: 960px;
+  width: 960px;
   display: flex;
+
 }
 
 .logo {
   background-color: black;
+  display: flex;
+  justify-content: center;
 }
+
+.logo-img {
+  height: 1.5rem;
+  margin: auto 1rem auto 0.5rem;
+}
+.logo p {
+   margin: 0.66rem 0;
+ }
 .moto {
+   background-image: url("/Users/SamCollins/Documents/GitHub/SamColl.io/SecretAgentSupply/resources/images/moto.jpeg");
+   height: 25rem;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   justify-content: center;
+   display: flex;
+
+}
+.new-arrival {
+  background-color: black;
+  width: 50%;
+  margin-top: 9rem;
+  height: 11rem;
+
+
+
+}
+.new-arrival p {
+  font-weight: bold;
+  padding-left: 3rem;
+  padding-bottom: 0.25rem;
+  padding-top: 2rem;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.25rem;
+  padding-left: 3rem;
+  line-height: 2.5rem;
 
 }
 .menu {
